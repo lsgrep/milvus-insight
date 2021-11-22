@@ -44,8 +44,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     margin: theme.spacing(3, 0, 0.5),
   },
 }));
-const MILVUS_URL =
-  ((window as any)._env_ && (window as any)._env_.MILVUS_URL) || '';
+const MILVUS_URL = '';
 
 const Connect = () => {
   const history = useHistory();
